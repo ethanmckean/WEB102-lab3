@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#root {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.omg-logo {
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+}
+
+.mini-header {
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(226, 195, 147);
+  text-align: center;
+  border-radius: 10px;
+  width: 93%;
+  margin: 0;
+}
+
+#wrong {
+  background-color: rgb(219, 93, 93);
+}
+
+#correct {
+  background-color: rgb(116, 191, 133);
+}
+
+.answer-space {
+  background-color: #e2c393;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  clear: both;
+}
+
+.radio-buttons {
+  list-style: none;
+}
+
+li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #FFFDD0;
+  border-radius: 15px;
+  list-style: none;
+}
+
+button.newdrink {
+  width: auto;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(138, 98, 12, 0.942);
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+.button.submit {
+  background-color: #916b1a;
+  color: white;
+}
+
+.button.newdrink {
+  background-color: #916b1a;
+  color: white;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.drink-container {
+  display: flex;
+  justify-content: space-between;
+}
